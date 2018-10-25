@@ -22,7 +22,7 @@ import java.util.List;
 public class IndexController {
     @RequestMapping("")
     public ModelAndView index() {
-        return new ModelAndView("/index");
+        return new ModelAndView("index");
     }
 
     @RequestMapping(value = "/getData/{address}"
